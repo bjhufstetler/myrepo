@@ -54,3 +54,21 @@ n <- matrix(1:6, byrow = TRUE, nrow = 2,
             dimnames = list(c("row1", "row2"),
                             c("col1", "col2", "col3")))
 n
+
+m[,2]
+m[2,]
+m[2, c(2,3)]
+m[c(1,2), c(2,3)]
+
+p <- matrix(1:20, byrow = TRUE, nrow = 4,
+            dimnames = list(c("r1", "r2", "r3", "r4"),
+                            c("a", "b", "c", "d", "e")))
+p
+p1 <- p["r2", "d"]
+p1
+subP <- p[c(3, 2), c(5, 4, 3, 2, 1)]
+subP
+subP2 <- p["r1", c(1, 2)]
+subP2
+p[c(FALSE, FALSE, TRUE, TRUE),
+  c(TRUE, FALSE)]
