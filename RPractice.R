@@ -72,3 +72,5 @@ subP2 <- p["r1", c(1, 2)]
 subP2
 p[c(FALSE, FALSE, TRUE, TRUE),
   c(TRUE, FALSE)]
+
+
