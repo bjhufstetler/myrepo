@@ -73,4 +73,13 @@ subP2
 p[c(FALSE, FALSE, TRUE, TRUE),
   c(TRUE, FALSE)]
 
+p2 <- p * 2
+p2
 
+letters <- c("a", "a", "b", "a", "b", "c", "a", "b", "c", "d")
+letters
+
+letters_factor <- factor(letters)
+letters_factor
+
+# I love my wife
