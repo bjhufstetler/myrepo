@@ -7,13 +7,12 @@ output: github_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-Hi out there.
 ```{r}
-Square <- function(x) {
-  return(x^2)
-}
-
-print(Square(4))
-print(Square(x=4)) # same thing
+a <- 2
+b <- 3
+c <-12
+d <- a + b + c
+d
 ```
+
 
